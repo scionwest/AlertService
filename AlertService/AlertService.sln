@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{19E86391-7D3B-4A93-9A11-35C86864804D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B12B3B00-33C6-4590-8B6E-12B5CFECB6D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Universal Apps", "Universal Apps", "{34272F68-C042-44E8-ADCF-CC7C4FC5223F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{B207764C-9841-4371-9DC9-C6052A748788}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertService.Shared", "Services\AlertService.Shared\AlertService.Shared.csproj", "{F1C67F12-3424-4D47-8D57-1E94C2B0529D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertService.Service.WPF", "Services\AlertService.Service.WPF\AlertService.Service.WPF.csproj", "{C9FE5295-C7F4-4715-B5B7-9753F30144EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertService.WPFDemo", "Demos\WPF\AlertService.WPFDemo\AlertService.WPFDemo.csproj", "{581B900B-C0D6-4E6B-AFFE-10DAE2780CFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1C67F12-3424-4D47-8D57-1E94C2B0529D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C67F12-3424-4D47-8D57-1E94C2B0529D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C67F12-3424-4D47-8D57-1E94C2B0529D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C67F12-3424-4D47-8D57-1E94C2B0529D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9FE5295-C7F4-4715-B5B7-9753F30144EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9FE5295-C7F4-4715-B5B7-9753F30144EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9FE5295-C7F4-4715-B5B7-9753F30144EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9FE5295-C7F4-4715-B5B7-9753F30144EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{581B900B-C0D6-4E6B-AFFE-10DAE2780CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581B900B-C0D6-4E6B-AFFE-10DAE2780CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581B900B-C0D6-4E6B-AFFE-10DAE2780CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581B900B-C0D6-4E6B-AFFE-10DAE2780CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34272F68-C042-44E8-ADCF-CC7C4FC5223F} = {19E86391-7D3B-4A93-9A11-35C86864804D}
+		{B207764C-9841-4371-9DC9-C6052A748788} = {19E86391-7D3B-4A93-9A11-35C86864804D}
+		{F1C67F12-3424-4D47-8D57-1E94C2B0529D} = {B12B3B00-33C6-4590-8B6E-12B5CFECB6D4}
+		{C9FE5295-C7F4-4715-B5B7-9753F30144EF} = {B12B3B00-33C6-4590-8B6E-12B5CFECB6D4}
+		{581B900B-C0D6-4E6B-AFFE-10DAE2780CFC} = {B207764C-9841-4371-9DC9-C6052A748788}
+	EndGlobalSection
+EndGlobal
